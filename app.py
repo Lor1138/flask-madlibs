@@ -13,6 +13,8 @@ def show_story():
     text = story.generate(request.args)
     return render_template("story.html", text=text)
 
-#stretch goal: Add a dropdown menu to the home page that allows users to
+#stretch goal #1: Add a dropdown menu to the home page that allows users to
 #select a variety of stories, when user clicks on option, bring them to
 #the page of inputs, then to story page to display story
+
+#stretch goal #2: Validate the form with JS. Make sure letters are entered(min 3) and are all lowercase
