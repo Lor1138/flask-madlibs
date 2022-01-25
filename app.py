@@ -17,4 +17,5 @@ def show_story():
 #select a variety of stories, when user clicks on option, bring them to
 #the page of inputs, then to story page to display story
 
-#stretch goal #2: Validate the form with JS. Make sure letters are entered(min 3) and are all lowercase
+#stretch goal #2: Validate the form with JS. 
+# Make sure letters are entered(min 3) and are all lowercase
